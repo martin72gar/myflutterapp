@@ -17,10 +17,18 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("data 1"),
             Text("data 2"),
-            Text("Text")
+            Text("Text"),
+            Row(
+              children: [
+                Text("Empat 4"),
+                Text("Lima 5"),
+                Text("Enam 6")
+              ]
+            )
           ],
         )
       ),
